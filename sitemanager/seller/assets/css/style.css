@@ -1,0 +1,233 @@
+.error-msg,.success-msg{
+	display: none;
+}
+.progressBar{
+
+	padding: 2px;
+	text-align: center;
+	display: none;
+
+}
+
+.progressBar .bar{
+	background-color: #000 ;
+	height: 5px;
+
+}
+.progressBar .bar .percent{
+
+	color: #000;
+}
+.product-msg{
+	    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    display: none;
+}
+
+.category-list ul{
+	
+	list-style: none;
+
+}
+.category-list ul li{
+	margin-top: 5px;
+	padding: 5px;
+	border:1px solid #ccc;
+	padding-bottom: 8px;
+	background: #fafafa;
+}
+.category-list ul li:hover{
+	    color: #2ea8e5;
+    background: #fff;
+}
+li .cat-action {
+	position: absolute;
+	right: 100px;
+	color: #333;
+}
+li .cat-action a{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+}
+.col-md-12{
+    float: none !important;
+   }
+.color-code{
+	height: 30px;
+	width: 30px;
+	display:inline-block;
+	border: 1px solid lightgray;
+}
+.color-name{
+	display: inline-block;
+	vertical-align: inherit;
+}
+
+.product-loader{
+	position: absolute;
+    top: 50%;
+    left: 45%;
+    z-index: 999;
+    background-color: rgba(115, 112, 112, 0.27);
+    display: none;
+}
+
+.ajax-modal-image{
+	/*width: 900px;*/
+}
+.ajax-modal-image ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin:3px;
+}
+.ajax-modal-image label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.ajax-modal-image label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+.ajax-modal-image label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #f00;
+}
+.ajax-modal-image .img-div{
+	/*margin:5px;*/
+	max-height: 500px;
+	overflow-y: scroll;
+}
+.ajax-modal-image .img-div .images{
+	padding-left: 10px;
+}
+.variation-checkbox {
+	display: block !important;
+}
+.product-ajax-loader{
+	    position: absolute;
+    background-color: rgba(224, 228, 236, 0.44);
+    width: 100%;
+    height: 93%;
+    z-index: 999;
+    display: none;
+}
+.product-ajax-loader img{
+	 position: fixed;
+    top: 45%;
+    left: 50%;
+}
+.category-select-list{
+	max-height: 300px;
+}
+.font-money{
+	font-size: 24px !important;
+}
+.page-logo{
+	padding-top: 20px !important; 
+}
+.page-logo a{
+	font-size: 30px !important;
+	color: #565353;
+}
+.page-wrapper-row .page-content-wrapper{
+	min-height: 600px !important;
+}
+.page-footer .container{
+	width: 100% !important;
+}
+.category-img{
+	display: none;
+}
+.top-cat-list{
+	text-align: left;
+	height: 300px;
+    overflow-y: scroll;
+    /* margin-top: 10px; */
+    padding-top: 10px;
+}
+.top-cat-list label{
+	display: inline-block;
+	margin-left: 0px;
+	width: 18%;
+
+}
+.loader-overlay{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #000;
+	height: 100%;
+	width: 100%;
+	opacity: 0.3;
+	display: none;
+}
+.loader-overlay img{
+	
+	    position: relative;
+    left: 40%;
+    top: 20%;
+}
+.user-div .dp,.user-div .user-name{
+	display: inline-block;
+}
+.user-div .lead{
+	margin-left: 5px;
+	font-size: 14px;
+}
+.user-div .dp{
+	    vertical-align: top;
+}
+.rating-div{
+	margin-left: 10px;
+}
+.product-div p span{
+	margin-left: 10px;
+}
+.notification-list img{
+	position: absolute;
+    top: 20%;
+    left: 27%;
+    display: none;
+}
+.payment-settled ul{
+	margin-left : 0px;
+	padding-left: 0px;
+}
+.payment-settled ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.payment-settled ul li .first{
+	width: 70%;
+	float: left;
+	font-size: 14px;
+}
+.payment-settled ul li .second{
+	float: right;
+	width: 20%;
+	font-size: 14px;
+}
+.payment-settled .payment-ul li{
+	width: 100%;
+}
+.payment-settled .payment-ul{
+	margin-top: 80px;
+}
+.payment-settled .total-price{
+	float: right;
+}
+.blue-hoki .portlet-title{
+	background-color: #444d58 !important;
+}
+
+.settled-link,.return-link{
+	    margin-top: 40px !important;
+    text-align: center;
+}
+.unsettled-link,.sales-link{
+
+	 margin-top: 30px !important;
+    text-align: center !important;
+
+}
